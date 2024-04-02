@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = PwshBubbleSort
+build_property.ProjectDir = /home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

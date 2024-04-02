@@ -1,0 +1,10 @@
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/obj/Debug/netstandard2.0/PwshBubbleSort.csproj.AssemblyReference.cache
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/obj/Debug/netstandard2.0/PwshBubbleSort.GeneratedMSBuildEditorConfig.editorconfig
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/obj/Debug/netstandard2.0/PwshBubbleSort.AssemblyInfoInputs.cache
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/obj/Debug/netstandard2.0/PwshBubbleSort.AssemblyInfo.cs
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/obj/Debug/netstandard2.0/PwshBubbleSort.csproj.CoreCompileInputs.cache
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/bin/Debug/netstandard2.0/PwshBubbleSort.deps.json
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/bin/Debug/netstandard2.0/PwshBubbleSort.dll
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/bin/Debug/netstandard2.0/PwshBubbleSort.pdb
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/obj/Debug/netstandard2.0/PwshBubbleSort.dll
+/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/obj/Debug/netstandard2.0/PwshBubbleSort.pdb

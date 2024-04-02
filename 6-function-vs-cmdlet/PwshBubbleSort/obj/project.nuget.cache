@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bf4RLlhO8ULvMIs/ty78v5Csb0aZO3mhUsNphXWFFjSryLj4bgpWmB79HRr2GxRLYXsQuoSAr81/rGNtLaZTnA==",
+  "success": true,
+  "projectFilePath": "/home/bobby/code/git/PSSummit2024-PwshPerformance/6-function-vs-cmdlet/PwshBubbleSort/PwshBubbleSort.csproj",
+  "expectedPackageFiles": [
+    "/home/bobby/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/bobby/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/bobby/.nuget/packages/powershellstandard.library/5.1.0-preview-06/powershellstandard.library.5.1.0-preview-06.nupkg.sha512"
+  ],
+  "logs": []
+}
