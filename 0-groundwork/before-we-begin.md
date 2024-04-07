@@ -27,7 +27,7 @@ Luckily this is Summit and we're not trying to land a spacecraft, so our `Get-Ti
   * The `$Difference` timespan _(position 1)_
 - These `[System.TimeSpan]` objects can be the result of a `Measure-Command`
   * You can also pass in the raw **Ticks** as `[long]`( a.k.a `[Int64]`) and it will instantiate a `[TimeSpan]`
-- It uses the **Ticks** of each does _math™_ to calculate the following:
+- It uses the **Ticks** of each and does _math™_ to calculate the following:
   * The approximate increase in performance in %
   * The approximate decrease in time in %
   * The approximate times faster the faster run was
