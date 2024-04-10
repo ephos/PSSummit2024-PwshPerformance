@@ -2,7 +2,7 @@
 
 What does this section mean?
 
-There are a lot of functions and Cmdlets that bubble up functionality that overlaps raw .Net.
+There are a lot of functions and Cmdlets that bubble up functionality that overlaps .Net
 
 For Example:
 
@@ -13,6 +13,7 @@ Functionally they will both generate you a GUID.  But is one faster?
 ---
 
 Generating a GUID.
+* Note - `New-Guid` is a Cmdlet not a function
 
 ```powershell
 # GUIDs

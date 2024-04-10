@@ -12,7 +12,7 @@ We're comparing an interpreted scripting language to a compiled language, but it
   * Implemented/written in PowerShell
   * Interpreted by the PowerShell interpreter
 - Cmdlet
-  * Implemented/written in C# generally, could also be done in F#
+  * Implemented/written in C# generally
   * Compiled into a dll
 
 ## Compare

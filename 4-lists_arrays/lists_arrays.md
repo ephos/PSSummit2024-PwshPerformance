@@ -103,6 +103,13 @@ Measure-Command -Expression {
 } | Tee-Object -Variable tsGenericList
 ```
 
+```powershell
+# Final Comp of the TimeSpans
+$tsArray
+$tsArraylist
+$tsGenericList
+```
+
 ## Do
 
 Use either a `[System.Collections.ArrayList]` or `[System.Collections.Generic.List[<Type>]]` over PowerShell's `@()`.
