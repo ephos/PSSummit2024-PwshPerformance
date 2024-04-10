@@ -41,9 +41,9 @@ function Get-TimeSpanDiffPercent {
 
         # Ta-Da!
         Write-Verbose -Message ("Difference: {0}%" -f [Math]::Round($percentageDiff,3))
-        "Increase in Perf:    `e[38;2;0;255;171m{0}%`e[0m" -f [Math]::Abs([Math]::Round($speedInc,3))
-        "Decrease in Time:    `e[38;2;0;255;171m{0}%`e[0m" -f [Math]::Abs([Math]::Round($speedDec,3))
-        "Faster By:           `e[38;2;0;255;171m~{0}x`e[0m" -f [Math]::Round($timesFaster,2) 
+        "Speed Improvement Percentage: `e[38;2;0;255;171m{0}%`e[0m" -f [Math]::Abs([Math]::Round($speedInc,3))
+        "Time Reduction Percentage:    `e[38;2;0;255;171m{0}%`e[0m" -f [Math]::Abs([Math]::Round($speedDec,3))
+        "Faster By:                    `e[38;2;0;255;171m~{0}x`e[0m" -f [Math]::Round($timesFaster,2) 
         if ($timesFaster -gt 100) {"🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"}
     }
 }

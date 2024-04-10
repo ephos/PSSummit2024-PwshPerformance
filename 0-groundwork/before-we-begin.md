@@ -7,6 +7,7 @@
 - It has an alias of `tsd` for _**Time Span Diff**_
 - It outputs text _(No it does not use `Write-Host` I have _some_ self respect)
 - It leverages **Ticks**
+  * I have crunched the numbers and the results are the same if you use millisecond or ticks, ticks were just easier.
 
 What's a tick?
 
@@ -59,3 +60,5 @@ Onto the show!
 
 [Percentage Calculator](https://www.calculator.net/percent-calculator.html)
 [.Net Ticks](https://learn.microsoft.com/en-us/dotnet/api/system.timespan.ticks?view=net-8.0#remarks)
+[Y-Combinator](https://news.ycombinator.com/item?id=11203745)
+[Wikipedia Math - SpeedUp](https://en.wikipedia.org/wiki/Speedup)
