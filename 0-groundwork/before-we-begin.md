@@ -17,21 +17,18 @@ From the docs:
 > There are 10,000 ticks in a millisecond. 
 > The value of the Ticks property can be negative or positive to represent a negative or positive time interval.
 
+- The testing function isn't perfect but I've cross referenced these numbers enough times in enough scenarios to feel okay about it.
+- Running `tsd` or `Get-TimeSpandDiffPercent` is mostly for illustrative purposes here!
+- Luckily for this we don't need the precision of NASA.
+
 ---
 
-Our testing function isn't perfect but we've established there are _**infinite**_ variables involved in measuring performance.
+Quick overview of the function:
 
-Luckily this is Summit and we're not trying to land a spacecraft, so our `Get-TimeSpanDiffPercent` will get us by.
-
-- It takes 2 parameters both as a `[System.TimeSpan]`
-  * The `$Reference` timespan _(position 0)_
-  * The `$Difference` timespan _(position 1)_
-- These `[System.TimeSpan]` objects can be the result of a `Measure-Command`
-  * You can also pass in the raw **Ticks** as `[long]`( a.k.a `[Int64]`) and it will instantiate a `[TimeSpan]`
-- It uses the **Ticks** of each and does _math™_ to calculate the following:
-  * The approximate increase in performance in %
-  * The approximate decrease in time in %
-  * The approximate times faster the faster run/timespan of the two was
+- Takes 2 timespan inputs and uses the Ticks to determine approximately how much faster the faster is in:
+  * Speed Improvement Percentage
+  * Time Reduction Percentage
+  * Faster By (2x, 50x, 100x, etc)
 
 ---
 
@@ -47,14 +44,24 @@ bat Get-TimeSpanDiffPercent.ps1
 # Dot source the function in
 . ./Get-TimeSpanDiffPercent.ps1
 
-# Using 2 and 4 as examples
+# Using 2 ticks and 4 ticks as examples
 Get-TimeSpanDiffPercent 2 4
 
 # Using more bigger-er numbers
-tsd 32892 2377
+tsd 2892 2377
 ```
 
-Onto the show!
+High level details of the function:
+
+- It takes 2 parameters both as a `[System.TimeSpan]`
+  * The `$Reference` timespan _(position 0)_
+  * The `$Difference` timespan _(position 1)_
+- These `[System.TimeSpan]` objects can be the result of a `Measure-Command`
+  * You can also pass in the raw **Ticks** as `[long]`( a.k.a `[Int64]`) and it will instantiate a `[TimeSpan]`
+- It uses the **Ticks** of each and does _math™_ to calculate the following:
+  * The approximate increase in performance in %
+  * The approximate decrease in time in %
+  * The approximate times faster the faster run/timespan of the two was
 
 ## Links
 
