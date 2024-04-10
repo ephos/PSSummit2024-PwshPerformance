@@ -27,9 +27,12 @@ High-level differences.
 
 ## Compare
 
+Talking about perf variables, when I wrote this I used 10 mil which ran fine on my desktop..
+Had to tweak this for my poor old laptop!
+
 ```powershell
-# 10 Million!
-$numbers = 0..10000000
+# 1000000 
+$numbers = 0..1000000
 
 # ForEach-Object
 Measure-Command -Expression { $numbers | ForEach-Object {"Hello Number: + $_"} }

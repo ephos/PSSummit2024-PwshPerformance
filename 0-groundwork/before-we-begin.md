@@ -30,7 +30,7 @@ Luckily this is Summit and we're not trying to land a spacecraft, so our `Get-Ti
 - It uses the **Ticks** of each and does _math™_ to calculate the following:
   * The approximate increase in performance in %
   * The approximate decrease in time in %
-  * The approximate times faster the faster run was
+  * The approximate times faster the faster run/timespan of the two was
 
 ---
 

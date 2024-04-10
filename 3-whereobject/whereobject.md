@@ -11,7 +11,7 @@ High-level differences.
   * Our beloved filtering from `Microsoft.PowerShell.Core` 
   * Two different syntactical ways of implementing this _(Since PowerShell 3.0)_
 - `.where()`_"magic method"_
-  * Introduced in PowerShell 3.0
+  * Introduced in PowerShell 4
   * Contains functionality that also overlaps a bit with `Select-Object`
 
 ## Compare
@@ -37,7 +37,7 @@ Measure-Command -Expression { $cards | Where-Object Name -like '*cheese*' }
 # The problem with the Comparison Statement is that you can only use one single condition
 
 # .where()
-Measure-Command -Expression { $cards.data.GetEnumerator().where({$_.Name -like '*cheese*'}) }
+Measure-Command -Expression { $cards.where({$_.Name -like '*cheese*'}) }
 ```
 
 We can see that `.where()` has better performance compared to it's `Where-Object` counter part.
@@ -47,7 +47,7 @@ The `.where()` method can also be used in a similar way to `Select-Object`.
 # Get all the 'zombie' cards
 $cards.where({$_.Name -like '*zombie*'})
 
-# Selecting and sorting with the .where() method
+# Selecting with the .where() method
 $cards.where({$_.Name -like '*zombie*'},'First',10)
 $cards.where({$_.Name -like '*zombie*'},'Last',10)
 ```
